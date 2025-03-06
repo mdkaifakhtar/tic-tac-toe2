@@ -75,3 +75,85 @@
  .hide {
   display: none;
  }
+
+/* responsive sector */
+
+ @media (max-width: 1200px) {
+  .box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vh;
+  }
+
+  p.msg {
+    font-size: 5vmin;
+    height: 8vmin;
+    width: 5vmin;
+  }
+
+  #new-btn, #reset-btn {
+    font-size: 2.5vmin;
+  }
+
+  h1 {
+    font-size: 7vmin;
+  }
+}
+
+@media (max-width: 768px) {
+  .game {
+    height: 50vmin;
+    width: 50vmin;
+  }
+
+  .box {
+    height: 12vmin;
+    width: 12vmin;
+    font-size: 7vh;
+  }
+
+  p.msg {
+    font-size: 4vmin;
+    height: 7vmin;
+    width: 4vmin;
+  }
+
+  #new-btn, #reset-btn {
+    font-size: 2vmin;
+  }
+
+  h1 {
+    font-size: 6vmin;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 80vh;
+  }
+
+  .game {
+    height: 40vmin;
+    width: 40vmin;
+  }
+
+  .box {
+    height: 10vmin;
+    width: 10vmin;
+    font-size: 6vh;
+  }
+
+  p.msg {
+    font-size: 3vmin;
+    height: 6vmin;
+    width: 3vmin;
+  }
+
+  #new-btn, #reset-btn {
+    font-size: 1.8vmin;
+  }
+
+  h1 {
+    font-size: 5vmin;
+  }
+}
